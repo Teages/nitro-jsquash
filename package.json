@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "bun wrangler pages dev dist/"
+  },
+  "dependencies": {
+    "image-meta": "^0.2.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.12.1",
+    "@jsquash/jpeg": "^1.4.0",
+    "@jsquash/png": "^3.0.1",
+    "@jsquash/resize": "^2.0.0",
+    "@jsquash/webp": "^1.4.0",
+    "eslint": "9.0.0",
+    "nitropack": "latest",
+    "wrangler": "^3.49.0",
+    "zod": "^3.22.4"
+  }
+}
