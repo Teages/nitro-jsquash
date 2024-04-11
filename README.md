@@ -1,3 +1,18 @@
-# Nitro starter
+# Nitro with JSquash
 
-Look at the [nitro quick start](https://nitro.unjs.io/guide#quick-start) to learn more how to get started.
+[Preview](https://nitro-jsquash.pages.dev/)
+
+A example of using JSquash with Nitro, tested in node, bun and cloudflare worker.
+
+# Development
+
+```bash
+# Install dependencies
+pnpm i
+
+# Start development server
+pnpm dev
+
+# Preview on miniflare
+pnpm preview
+```
